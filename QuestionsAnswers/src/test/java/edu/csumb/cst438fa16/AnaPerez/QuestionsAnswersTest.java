@@ -2,7 +2,6 @@ package edu.csumb.cst438fa16.AnaPerez;
 
 import org.junit.Test;
 import junit.framework.TestCase;
-
 /**
  * Unit tests for simple QuestionsAnswers Class.
  * Author: Ana Perez
@@ -18,7 +17,7 @@ public class QuestionsAnswersTest extends TestCase
     	quesAns.put("What's my favorite programming language", "java");
     	assertNotNull(quesAns.getRandomQuestion());
     }
-    
+
     @Test
     public void testAnswer() {
     	QuestionsAnswers quesAns = new QuestionsAnswers();
